@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SocialNetworkMainWindow</class>
+ <widget class="QMainWindow" name="SocialNetworkMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>开始</string>
+    </property>
+    <addaction name="actionquit"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>查看网络</string>
+    </property>
+    <addaction name="actionselectPerson"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>人员操作</string>
+    </property>
+    <addaction name="actionaddPerson"/>
+    <addaction name="actionaddFriend"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>组织操作</string>
+    </property>
+    <addaction name="actionaddGroup"/>
+    <addaction name="actionaddGroupMember"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_4"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionback">
+   <property name="text">
+    <string>返回开始界面</string>
+   </property>
+  </action>
+  <action name="actionquit">
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="actionselectPerson">
+   <property name="text">
+    <string>切换用户</string>
+   </property>
+  </action>
+  <action name="actionaddPerson">
+   <property name="text">
+    <string>添加人员</string>
+   </property>
+  </action>
+  <action name="actionaddFriend">
+   <property name="text">
+    <string>添加好友</string>
+   </property>
+  </action>
+  <action name="actionaddGroup">
+   <property name="text">
+    <string>添加组织</string>
+   </property>
+  </action>
+  <action name="actionaddGroupMember">
+   <property name="text">
+    <string>添加组织成员</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
